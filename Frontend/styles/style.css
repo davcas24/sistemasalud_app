@@ -75,6 +75,10 @@ body {
 	color: #838282;
 }
 
+#Esp_Dropdown{
+  margin-bottom: 15px;
+}
+
 ul{
 	padding: 0;
 	margin: 0;
@@ -126,7 +130,7 @@ img{
   position:absolute;
   left:50%; /* centers the loading animation horizontally one the screen */
   top:50%; /* centers the loading animation vertically one the screen */
-  background-image:url(../assets/images/loader.gif); /* path to your loading animation */
+  background-image:url(assets/images/loader.gif); /* path to your loading animation */
   background-repeat:no-repeat;
   background-position:center;
   margin:-100px 0 0 -100px; /* is width and height divided by two */
@@ -877,7 +881,7 @@ img{
 
 #counter{
 	background-attachment: fixed !important;
-	background-image: url("../assets/images/counter-bg.jpg");
+	background-image: url("assets/images/counter-bg.jpg");
 	background-repeat: repeat;
 	background-size: cover;
 	color: #ffffff;
@@ -1244,7 +1248,7 @@ img{
 
 #testimonial {
   background-attachment: fixed !important;
-  background-image: url("../assets/images/testimonial-1.jpg");
+  background-image: url("assets/images/testimonial-1.jpg");
   background-repeat: repeat;
   background-size: cover;
   color: #ffffff;
@@ -1472,7 +1476,7 @@ img{
 
 #subscribe{
   background-attachment: fixed !important;
-  background-image: url("../assets/images/subscribe-bg.jpg");
+  background-image: url("assets/images/subscribe-bg.jpg");
   background-repeat: repeat;
   background-size: cover;
   color: #ffffff;
@@ -1592,7 +1596,7 @@ img{
 
 #single-page-header{
   background-attachment: fixed !important;
-  background-image: url("../assets/Img/imgcool2.jpg");
+  background-image: url("assets/Img/imgcool2.jpg");
   background-repeat: repeat;
   background-size: cover;
   color: #ffffff;
