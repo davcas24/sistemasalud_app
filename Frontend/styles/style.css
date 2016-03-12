@@ -41,6 +41,7 @@ Tags: light, white, single page, multipurpose, multi page, custom-colors, Bootst
 /*--------------------*/
 
 body,html{
+  background-color: #F3F0FF;
 }
 
 #mainlogo{
@@ -66,6 +67,13 @@ body,html{
   border-style: solid;
   border-bottom-color: rgba(0,0,0,0.3);
   border-bottom-width: 1px;
+  background-color: #C5C2CE;
+}
+
+#Profile_Name{
+  font-size: 40px;
+  text-align: center;
+  color: black;
 }
 
 body {
@@ -212,8 +220,8 @@ img{
   font-size: 20px;
   height: 35px;
   line-height: 35px;
-  position: absolute;
   right: 8%;
+  position: absolute;
   text-align: center;
   top: 20px;
   width: 35px;
@@ -411,18 +419,10 @@ img{
 }
 
 #menu-area .navbar-default {
-  background-color: #fff;
+  background-color:  #C5C2CE;
   border-color: #fff;
   margin-bottom: 0;
 }
-
-/*.navbar-brand {
-  font-family: "Lato",sans-serif;
-  font-size: 25px;
-  font-weight: bold;
-  margin-top: 14px;
-  text-transform: uppercase;
-}*/
 
 .navbar-brand:hover,
 .navbar-brand:focus{
@@ -651,7 +651,7 @@ img{
 /*--------------------*/
 
 #feature{
-	background-color: #fff;
+	background-color: #F3F0FF;
 	display: inline;
 	float: left;
 	padding: 70px 0;
@@ -733,7 +733,7 @@ img{
 /*--------------------*/
 
 #about{
-	background-color: #f8f8f8;
+	background-color: #F3F0FF;
 	display: inline;
 	float: left;
 	padding: 70px 0;
@@ -1544,7 +1544,7 @@ img{
 
 
 #footer{
-  background-color: #171717;
+  background-color:  #C5C2CE;
   display: inline;
   float: left;
   padding: 25px 0;
@@ -2718,4 +2718,22 @@ img{
   .blog-archive-left .blog-news-img {
     height: 220px;
   }
+}
+
+/*Profile Style*/
+#Profile_Image{
+  width: 250px;
+  height: 270px;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+#Profile_Right{
+  padding-top:5px;
+  margin-right: 50px;
+}
+
+#buscar{
+  width: 750px;
 }
